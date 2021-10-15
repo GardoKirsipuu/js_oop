@@ -10,8 +10,11 @@ function Shape(name, sides, sideLength) {
 
 let square = new Shape("square", 4, 5);
 
+console.log(square);
 console.log(square.calcPerimeter());
 
 let triangle = new Shape("triangle", 3, 3);
 
+console.log(triangle);
 console.log(triangle.calcPerimeter());
+
